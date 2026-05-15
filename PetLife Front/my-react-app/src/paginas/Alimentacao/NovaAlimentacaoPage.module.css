@@ -1,0 +1,106 @@
+.formCard {
+  background: var(--cream);
+  padding: 32px;
+  border-radius: var(--radius-lg);
+  border: 1.5px solid var(--sand-200);
+}
+
+.formGroup {
+  margin-bottom: 16px;
+}
+
+.formGroupRow {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.formCol {
+  flex: 1;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--sand-200);
+  font-family: inherit;
+}
+
+.btnGroup {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.btnCancel {
+  padding: 12px 24px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--sand-300);
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btnSubmit {
+  padding: 12px 24px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: var(--terra-500);
+  color: var(--sand-50);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.horarioRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.horarioRow .input {
+  flex: 1;
+}
+
+.btnRemoveHorario {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid #e74c3c;
+  background: transparent;
+  color: #e74c3c;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.btnRemoveHorario:hover {
+  background: #fde8e8;
+}
+
+.btnAddHorario {
+  margin-top: 4px;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  border: 1.5px dashed var(--terra-500);
+  background: transparent;
+  color: var(--terra-500);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btnAddHorario:hover {
+  background: var(--sand-100, #f5f0eb);
+}

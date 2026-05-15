@@ -1,0 +1,15 @@
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.2px;
+}
+
+.ok      { background: var(--cream); color: var(--terra-600); }
+.warning { background: var(--sand-100); color: var(--terra-600); }
+.expired { background: #fce8ef; color: #a32d2d; }
+.blue    { background: var(--cream); color: var(--terra-500); }
+.pink    { background: var(--sand-200); color: var(--terra-600); }

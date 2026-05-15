@@ -1,0 +1,21 @@
+/* ── Shell ─────────────────────────────────────────── */
+.shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.main {
+  flex: 1;
+  overflow-y: auto;
+  /* Fundo com a imagem e uma leve camada "creme" por cima para garantir que os textos fiquem legíveis */
+  background: 
+    linear-gradient(rgba(253, 245, 230, 0.85), rgba(253, 245, 230, 0.85)),
+    url('../../assets/fundo.png') center/cover fixed;
+}

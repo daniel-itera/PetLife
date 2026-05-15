@@ -1,0 +1,120 @@
+.emptyBox {
+  background: var(--cream);
+  padding: 40px;
+  border-radius: var(--radius-lg);
+  border: 1.5px solid var(--sand-200);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.emptyIcon {
+  font-size: 40px;
+}
+
+.emptyText {
+  margin-top: 10px;
+  color: var(--ink-muted);
+  font-family: var(--font-sans);
+  font-size: 14px;
+}
+
+.emptyBtn {
+  background: var(--terra-500);
+  color: var(--sand-50);
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  margin-top: 24px;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  transition: background 0.2s;
+}
+
+.emptyBtn:hover {
+  background: var(--terra-600);
+}
+
+.addBtn {
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: var(--terra-500);
+  color: var(--sand-50);
+  font-weight: 600;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.addBtn:hover {
+  background: var(--terra-600);
+}
+
+.tableWrap {
+  background: var(--cream);
+  border: 1.5px solid var(--sand-200);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+}
+
+.table thead {
+  background: var(--sand-100);
+}
+
+.table th {
+  text-align: left;
+  padding: 12px 18px;
+  font-weight: 700;
+  color: var(--ink-muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  border-bottom: 1.5px solid var(--sand-200);
+}
+
+.table td {
+  padding: 13px 18px;
+  border-top: 1px solid var(--sand-100);
+  color: var(--ink-light);
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table tbody tr:hover td {
+  background: var(--sand-50);
+}
+
+.petName {
+  font-weight: 700;
+  color: var(--ink) !important;
+}
+
+.editBtn {
+  background: transparent;
+  color: var(--terra-500);
+  border: 1px solid var(--terra-500);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  transition: all 0.2s;
+}
+
+.editBtn:hover {
+  background: var(--terra-500);
+  color: var(--sand-50);
+}

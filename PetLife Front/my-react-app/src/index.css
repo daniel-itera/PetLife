@@ -1,0 +1,92 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Paleta de cores PetLife (Original) */
+  --sand-50:   #fdf8f0;
+  --sand-100:  #f5ead6;
+  --sand-200:  #e8d4b0;
+  --sand-300:  #d4b27a;
+
+  --terra-400: #c4855a;
+  --terra-500: #a96040;
+  --terra-600: #8a4a2e;
+
+  --moss-400:  #6b8f6e;
+  --moss-500:  #4e7152;
+  --moss-600:  #355438;
+
+  --cream:     #fefaf3;
+
+  --ink:       #2c2416;
+  --ink-light: #5c4f3a;
+  --ink-muted: #8a7a60;
+
+  --sidebar-bg: #221a11;
+
+  /* Sombras */
+  --shadow-xs: 0 1px 3px rgba(44, 36, 22, 0.06);
+  --shadow-sm: 0 2px 8px rgba(44, 36, 22, 0.08);
+  --shadow-md: 0 4px 20px rgba(44, 36, 22, 0.12);
+
+  /* Border radius */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  /* Tipografia */
+  --font-serif: 'Georgia', 'Times New Roman', serif;
+  --font-sans:  system-ui, -apple-system, sans-serif;
+  --font-mono:  'Courier New', monospace;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-serif);
+  background-color: var(--sand-50);
+  color: var(--ink);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+input, select, textarea {
+  font-family: var(--font-sans);
+  outline: none;
+}
+
+/* Scrollbar customizada */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--sand-300); border-radius: 3px; }
+
+/* Utilitários globais */
+.full-screen-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 18px;
+  color: var(--ink-muted);
+  font-family: var(--font-sans);
+}
