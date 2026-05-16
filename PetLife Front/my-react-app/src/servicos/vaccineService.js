@@ -2,7 +2,7 @@ import api from './api'
 
 function mapVaccine(v) {
   return {
-    id: v.id?.toString() || Math.random().toString(), // Backend não enviou ID na response mapeada, criando fallback
+    id: v.id?.toString() || Math.random().toString(),
     nome: v.nomeVacina,
     lote: v.fabricante,
     dataAplicacao: v.dataAplicacao,
